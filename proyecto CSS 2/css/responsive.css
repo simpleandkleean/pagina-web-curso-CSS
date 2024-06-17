@@ -48,6 +48,7 @@
 @media(min-width: 1100px), (max-width: 1133px) {
     #articles {
         width: 60%;
+        margin-bottom: 100px;
     }
 
     .card .category {
@@ -57,20 +58,20 @@
     .card .description {
         font-size: 14px;
     }
+
+
 }
 
 
-@media
-(max-width: 1080px) {
+@media (max-width: 1080px) {
 
     #articles {
         width: 59%;
+
     }
 
     #articles .news {
-        scroll-behavior: initial;
-        overflow-y: scroll;
-        overflow-x: hidden;
+      
         height: 260px;
     }
 
@@ -81,31 +82,102 @@
 
 }
 
-@media  (max-width: 970px) {
+@media(max-width: 1047px){
+#articles .news{
+    scroll-behavior: initial;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+}
+
+@media (max-width: 970px) {
 
 
     #banner h1 {
-        font-size: 30px;
-        text-align: center;
+        font-size: 35px;
+        text-align: left;
         margin: 33px auto;
+        padding-left: 40px;
     }
 
     #articles {
-        width: 50%;
+        width: 53%;
     }
 
-    #articles .news{
-    width: 90%;
+    #articles .news {
+        width: 92.5%;
     }
 
 
-    #footer h5{
-    font-size: 30px;
+    #footer h5 {
+        font-size: 22px;
     }
 
     #footer .wrap>div {
         width: 23%;
     }
 
-    
+    #lateral {
+        width: 40%;
+        margin-right: 20px;
+    }
+
+    @media (max-width: 950px) {
+
+        #banner h1{
+        width: 100%;
+        margin-left: -5px;
+        }
+
+        #articles {
+            width: 65%;
+        }
+
+        #lateral {
+            width: 25%;
+        }
+
+        #lateral h3 {
+            width: 100%;
+        }
+
+        #lateral input[type="text"] {
+            width: 78%;
+        }
+
+        #lateral input[type="email"],
+        #lateral input[type="password"] {
+            width: 65%;
+        }
+
+        #login .icon{
+        margin-left: 20px
+        }
+
+        #login input[type="submit"], 
+        #login input[type="button"], 
+        #login input[type="reset"], 
+        #login button{
+         width: 32%;
+        }
+
+        #login a{
+        padding-top: 15px;
+        }
+
+        #social .icon{
+        margin-top: -5px;
+        margin-bottom: 10px;
+        }
+
+        .aside-box {
+            width: 95%;
+            min-height: 140px;
+            height: auto;
+            padding-bottom: 20px;
+        }
+
+    }
+
+
 }
