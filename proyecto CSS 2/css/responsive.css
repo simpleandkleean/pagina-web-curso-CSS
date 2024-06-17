@@ -31,11 +31,11 @@
     }
 
     #footer .wrap>div {
-        width: 24%;
+        width: 22%;
     }
 
     #footer h5 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #footer #browsers img {
@@ -71,7 +71,7 @@
     }
 
     #articles .news {
-      
+
         height: 260px;
     }
 
@@ -82,12 +82,12 @@
 
 }
 
-@media(max-width: 1047px){
-#articles .news{
-    scroll-behavior: initial;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
+@media(max-width: 1047px) {
+    #articles .news {
+        scroll-behavior: initial;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width: 970px) {
@@ -97,7 +97,7 @@
         font-size: 35px;
         text-align: left;
         margin: 33px auto;
-        padding-left: 40px;
+        padding-left: 50px;
     }
 
     #articles {
@@ -108,25 +108,31 @@
         width: 92.5%;
     }
 
+    #articles .news h4 a {
+        font-size: 20px;
+    }
+
 
     #footer h5 {
-        font-size: 22px;
+        font-size: 25px;
+        width: 120%;
     }
 
     #footer .wrap>div {
-        width: 23%;
+        width: 21%;
+        margin-top: 40px;
     }
 
     #lateral {
         width: 40%;
-        margin-right: 20px;
     }
 
     @media (max-width: 950px) {
 
-        #banner h1{
-        width: 100%;
-        margin-left: -5px;
+        #banner h1 {
+            width: 100%;
+            margin-left: 40px;
+            font-size: 30px;
         }
 
         #articles {
@@ -135,6 +141,7 @@
 
         #lateral {
             width: 25%;
+            margin-right: 25px;
         }
 
         #lateral h3 {
@@ -150,24 +157,24 @@
             width: 65%;
         }
 
-        #login .icon{
-        margin-left: 20px
+        #login .icon {
+            margin-left: 20px
         }
 
-        #login input[type="submit"], 
-        #login input[type="button"], 
-        #login input[type="reset"], 
-        #login button{
-         width: 32%;
+        #login input[type="submit"],
+        #login input[type="button"],
+        #login input[type="reset"],
+        #login button {
+            width: 32%;
         }
 
-        #login a{
-        padding-top: 15px;
+        #login a {
+            padding-top: 15px;
         }
 
-        #social .icon{
-        margin-top: -5px;
-        margin-bottom: 10px;
+        #social .icon {
+            margin-top: -5px;
+            margin-bottom: 10px;
         }
 
         .aside-box {
@@ -177,7 +184,46 @@
             padding-bottom: 20px;
         }
 
+
+
     }
+
+    @media (max-width: 899px) {
+        #menu {
+            font-size: 25px;
+        }
+
+        #banner h1 {
+            font-size: 25px;
+            margin-left: 25px;
+        }
+
+        #lateral h3 {
+            font-size: 25px;
+        }
+
+        #lateral input[type="text"] {
+            width: 75%;
+        }
+
+        #footer .wrap>div {
+        margin-right: 25px;
+        }
+
+        #footer h5{
+        width: 105%;
+        font-size: 20px;
+        }
+
+        #footer ul li a{
+        font-size: 20px;
+        }
+
+
+
+    }
+
+
 
 
 }
