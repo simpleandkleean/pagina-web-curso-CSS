@@ -100,6 +100,10 @@
         padding-left: 50px;
     }
 
+    #lateral {
+        width: 40%;
+    }
+
     #articles {
         width: 53%;
     }
@@ -123,15 +127,18 @@
         margin-top: 40px;
     }
 
-    #lateral {
-        width: 40%;
+    #footer #mapa {
+        width: 119%;
     }
+
+
+
 
     @media (max-width: 950px) {
 
         #banner h1 {
             width: 100%;
-            margin-left: 40px;
+            margin-left: 30px;
             font-size: 30px;
         }
 
@@ -177,11 +184,23 @@
             margin-bottom: 10px;
         }
 
+        #social .twitter .icon {
+            padding-bottom: 2px;
+        }
+
+        #social .overlay {
+            margin-top: -38px;
+        }
+
         .aside-box {
             width: 95%;
             min-height: 140px;
             height: auto;
             padding-bottom: 20px;
+        }
+
+        #footer #mapa {
+            width: 119%;
         }
 
 
@@ -194,8 +213,8 @@
         }
 
         #banner h1 {
-            font-size: 25px;
-            margin-left: 25px;
+            font-size: 30px;
+            margin-left: 10px;
         }
 
         #lateral h3 {
@@ -207,16 +226,35 @@
         }
 
         #footer .wrap>div {
-        margin-right: 25px;
+            margin-right: 25px;
         }
 
-        #footer h5{
-        width: 105%;
-        font-size: 20px;
+        #footer h5 {
+            width: 105%;
+            font-size: 20px;
         }
 
-        #footer ul li a{
-        font-size: 20px;
+        #footer ul li a {
+            font-size: 20px;
+        }
+
+        #social .overlay {
+            margin-left: 55px;
+        }
+
+
+
+    }
+
+    @media (max-width: 800px) {
+
+        #menu {
+            font-size: 20px;
+        }
+
+        #banner h1 {
+            margin-left: -5px;
+            font-size: 27px;
         }
 
 
