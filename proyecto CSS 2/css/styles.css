@@ -180,6 +180,7 @@ body {
     padding-right: 30px;
     color: white;
     transition: all 200ms;
+    font-size: 23px;
 }
 
 #menu ul li a:hover {
