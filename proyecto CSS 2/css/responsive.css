@@ -363,9 +363,17 @@
   }
 
   @media (max-width: 660px) {
+
+    .wrap{
+    width: 95%;
+    }
     #menu {
       margin-left: 55px;
     }
+
+    #menu ul li a {
+      margin-right: -15px;
+  }
 
     #banner h1 {
       margin-left: -33px;
@@ -385,6 +393,10 @@
       float: none;
       width: 97%;
       margin-left: 1px;
+    }
+
+    #articles #blog{
+    width: 99%;
     }
 
     #lateral {
@@ -416,9 +428,24 @@
       margin-left: 0px;
     }
 
+
     #search {
       margin-left: 0px;
       width: 97%;
     }
+
+    #login #user, #login #password {
+      margin-left: 20px;
+  }
+
+    #footer{
+      height: auto;
+    }
+
+    #footer .wrap > div {
+      width: 100%;
+      margin: 0px auto;
+  }
+
   }
 }
